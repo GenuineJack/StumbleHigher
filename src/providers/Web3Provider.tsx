@@ -5,7 +5,7 @@ import { WagmiConfig, createConfig, configureChains } from 'wagmi';
 import { base, mainnet } from 'wagmi/chains';
 import { publicProvider } from 'wagmi/providers/public';
 import { alchemyProvider } from 'wagmi/providers/alchemy';
-import { RainbowKitProvider, getDefaultWallets, connectorsForWallets } from '@rainbowme/rainbowkit';
+import { RainbowKitProvider, getDefaultWallets, connectorsForWallets } from '@rainbow-me/rainbowkit';
 import '@rainbow-me/rainbowkit/styles.css';
 
 // Configure chains and providers
